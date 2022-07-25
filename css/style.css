@@ -1,0 +1,120 @@
+body {
+    font-family:"Poppins", sans-serif;
+}
+.banner-info {
+    background-color:#FEEAE9;
+    border-radius:10px;
+}
+.banner-info h3 {
+    color:#FF136F;
+}
+.banner-info button {
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border-radius: 6px;
+    color:white;
+}
+.category img {
+    width:100px;
+}
+.category .card {
+    --bs-card-spacer-y: 0.6rem;
+    color:white;
+    text-transform:capitalize;
+}
+.card-1 {
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%); 
+}
+.card-2 {
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+.card-3 {
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+
+/* main */ 
+.main-info {
+    background:#F4F4F4;
+}
+
+/* shoes */
+.shoes .card {
+    border-radius:20px;
+}
+
+/* backpack */
+
+a.link {
+    color:#FF9D00 !important;
+    text-decoration:none;
+}
+
+/* footer */
+.footer-info {
+    background:#FFF2F1;
+    padding:150px 0;
+    border-radius:15px;
+}
+.footer form input {
+    font-size:16px;
+}
+.footer form button {
+    background: linear-gradient(180deg, #FF589B 0%, #FF136F 100%);
+    color:white;
+}
+.footer .card {
+    background:transparent;
+    border:0;
+}
+
+
+
+@media (max-width:1200px){
+    .email-option {
+        width:70% !important;
+    }
+}
+
+@media (max-width:767px) {
+    .top-banner .row {
+        flex-flow:column-reverse;
+    }
+    .banner-info.container {
+        max-width:100%;
+        --bs-gutter-x: 0rem !important;
+    }
+    .backpack {
+        margin:0 !important;
+    }
+    .email-option {
+        width:100% !important;
+    }
+    .footer {
+        padding:0 !important;
+        width:100% !important;
+    }
+    .footer > .container {
+        max-width:100% !important;
+        --bs-gutter-x: 0rem;
+    }
+    .footer-info {
+        padding:50px 0;
+        border-radius:0;
+        width:100% !important;
+    }
+   
+}
+
+@media (max-width:567px) {
+    form.input-group {
+        flex-flow:column !important;
+    }
+    form input {
+        border-radius:5px !important;
+    }
+    form button.input-group-text {
+        border-radius:5px !important;
+    }
+    form input.form-control {
+        width:100% !important;
+    }
+}
